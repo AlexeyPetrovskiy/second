@@ -13,8 +13,6 @@ public class Runner {
         remote.setCommand(new LightOnCommand(new Light()));
         remote.buttonPressed();
         remote.setCommand(new GarageDoorOpenCommand(new GarageDoor()));
-        remote.setCommand(new GarageDoorOpenCommand(new GarageDoor()));
-        remote.buttonPressed();
         remote.buttonPressed();
     }
 }
